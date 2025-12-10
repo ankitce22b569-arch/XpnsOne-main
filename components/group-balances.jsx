@@ -76,7 +76,10 @@ const GroupBalances = ({ balances }) => {
                 <ArrowUpCircle className="h-4 w-4 text-green-500 mr-2" />
                 Owed to you
               </h3>
+ 
 
+
+ 
               <div className="space-y-3">
                 {owedByMembers.map((member) => (
                   <div
